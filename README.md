@@ -10,4 +10,4 @@
 ### Services
 - [PokeAPI](https://pokeapi.co/)
 
-<img src="screenshot.png"/>
+<img src="screenshot.PNG"/>
