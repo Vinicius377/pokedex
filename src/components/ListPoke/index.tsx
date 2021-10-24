@@ -22,10 +22,7 @@ export const ListPoke=({name,url}:Props)=>{
    
     return(
         <C.Container>
-            <div>
-
-          <CardPoke name={name} img={metadados.sprit}/>
-            </div>
+                <CardPoke name={name} img={metadados.sprit}/>
         </C.Container>
     )
 } 

@@ -9,7 +9,7 @@ export function CardPoke({name,img}:Props){
      return(
          <C.Container>
              <h1>{name}</h1>
-             <img src={img} />
+             <img src={img} width="100"/>
          </C.Container>
      )
 }

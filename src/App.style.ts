@@ -1,12 +1,13 @@
 import styled from "styled-components"
 
 export const Container=styled.div`
-    height:100vh;
+   
+   
     background:#04040F;
 `
 export const Area=styled.div`
-    width: 800px;
-    margin: auto;
+    width: 1000px;
+    margin:auto;
     header{
         height: 80px;
        display: flex;
@@ -24,5 +25,13 @@ export const Area=styled.div`
     h1{
         color: white;
         font-size: 20px;
+    }
+    main{
+        display: flex;
+        justify-content: center;
+        gap: 5px;
+         display: grid;
+         grid-template-columns: repeat(auto-fit,200px);
+         padding: 30px 0;
     }
 `
