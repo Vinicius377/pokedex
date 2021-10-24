@@ -8,4 +8,4 @@
 - API 
 
 ### Services
-- [PokeAPI](https://pokeapi.co/)
+- [PokeAPI](https://pokeapi.co/){:target="_blank"}
