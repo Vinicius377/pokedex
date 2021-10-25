@@ -7,7 +7,7 @@
      "bug":"#a8b820",
      "fight":"#c02f27",
      "ghost":"#715799",
-     "electr":"#f9d130",
+     "electric":"#f9d130",
      "flying":"#a990f1",
      "steel":"#b8b8d0",
      "psychc":"#f95788",

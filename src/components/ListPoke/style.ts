@@ -6,12 +6,12 @@ type Props={
 }
 console.log(colors)
 export const Container=styled.div(({color}:Props)=>`
-            padding:10px;
+            padding:7px;
             background:${colors[color]};
             box-sizing: content-box;
             border-radius:8px;
             display: flex;
             justify-content: center;
-            {console.log(color)}
+           border:5px solid white;
 `)
   

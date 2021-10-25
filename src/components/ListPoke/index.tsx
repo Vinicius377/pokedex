@@ -11,16 +11,20 @@ type Props={
 
 export const ListPoke=({name,url}:Props)=>{
     const [metadados,setMetadatos]=useState<metadados>({sprit:"",type:""})
-
     const dados = async ()=>{
         const response= await fetch(url)
         const json= await response.json()
-        setMetadatos({sprit:json.sprites.front_default,type:json.types[0].type.name})
+      
+        setMetadatos({sprit:json.sprites.other["official-artwork"].front_default||  json.sprites.front_default ,
+                    type:json.types[0].type.name})
+        console.log()
     }
+    
     useEffect(()=>{
+       
         dados()
-    },[])
-    console.log(metadados)
+    },[name])
+
     return(
         <C.Container color={metadados.type==""? "normal":metadados.type }>
                 <CardPoke name={name} img={metadados.sprit}/>

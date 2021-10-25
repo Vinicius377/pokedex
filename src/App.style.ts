@@ -20,7 +20,7 @@ export const Area=styled.div`
        color:white;
        font-size: 20px;
         margin:0 20px;
-        
+        cursor:pointer
     }
     h1{
         color: white;
@@ -31,7 +31,7 @@ export const Area=styled.div`
         justify-content: center;
         gap: 5px;
          display: grid;
-         grid-template-columns: repeat(auto-fit,200px);
+         grid-template-columns: repeat(auto-fit,300px);
          padding: 30px 0;
     }
 `
