@@ -10,7 +10,7 @@
      "electric":"#f9d130",
      "flying":"#a990f1",
      "steel":"#b8b8d0",
-     "psychc":"#f95788",
+     "psychic":"#f95788",
      "poison":"#a03fa1",
      "fire":"#f17f2e",
      "ice":"#98d9d9",
