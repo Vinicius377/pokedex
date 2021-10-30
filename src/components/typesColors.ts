@@ -5,7 +5,7 @@
  export const colors=<typeColor>{
      "normal":"#a9a878",
      "bug":"#a8b820",
-     "fight":"#c02f27",
+     "fighting":"#c02f27",
      "ghost":"#715799",
      "electric":"#f9d130",
      "flying":"#a990f1",
@@ -19,5 +19,6 @@
      "dragon":"#6f37f9",
      "rock":"#b89f38",
      "grass":"#78c850",
-     "dark":"#6f5747"
+     "dark":"#6f5747",
+     "fairy":"#5D1947"
  }
